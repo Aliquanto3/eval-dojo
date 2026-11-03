@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WaveEval forgée</title>
+<title>EvalDojo forgée</title>
 <style>
 :root{--bg:#faf7f2;--fg:#1f1c18;--muted:#6b645a;--card:#fff;--line:#e4ddd2;--seal:#9b2226;--seal2:#bb3e03;--ok:#2d6a4f;--no:#9b2226;--warn:#b7791f}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17150f;--fg:#efe9df;--muted:#a59d90;--card:#211e17;--line:#3a352b;--seal:#e05a4f;--seal2:#f08a4b;--ok:#74c69d;--no:#e05a4f;--warn:#e9b44c}}
@@ -40,11 +40,11 @@ footer{color:var(--muted);font-size:.85rem;margin-top:40px}
   <path fill="var(--seal)" d="M100 8l11 9 14-4 7 12 15 1 2 15 13 6-3 14 9 11-9 11 3 14-13 6-2 15-15 1-7 12-14-4-11 9-11-9-14 4-7-12-15-1-2-15-13-6 3-14-9-11 9-11-3-14 13-6 2-15 15-1 7-12 14 4z"/>
   <circle cx="100" cy="100" r="80" fill="none" stroke="var(--bg)" stroke-width="2" opacity=".6"/>
   <circle cx="100" cy="100" r="58" fill="none" stroke="var(--bg)" stroke-width="1.5" opacity=".6"/>
-  <text font-family="Georgia,serif" font-size="13" letter-spacing="3" fill="var(--bg)"><textPath href="#c" startOffset="2%">WAVEEVAL · FORGE BMAD · 2026-10-20 ·</textPath></text>
+  <text font-family="Georgia,serif" font-size="13" letter-spacing="3" fill="var(--bg)"><textPath href="#c" startOffset="2%">EVALDOJO · FORGE BMAD · 2026-10-20 ·</textPath></text>
   <text x="100" y="106" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="var(--bg)" letter-spacing="1">HARDENED</text>
 </svg>
 <div>
-<h1>WaveEval : idée forgée</h1>
+<h1>EvalDojo : idée forgée</h1>
 <p class="sub">Une app qui forme au <strong>jugement</strong> en évaluation d'IA générative, construite pour qu'Anaël puisse défendre chaque choix sans agent.</p>
 </div>
 </header>
@@ -65,7 +65,7 @@ footer{color:var(--muted);font-size:.85rem;margin-top:40px}
 <li class="lock">Deux étages par module : Comprendre (exposition, QCM), puis Juger (réponse libre d'abord, cas à diagnostiquer, vraie évaluation).</li>
 <li class="lock">Module 1 « Mesurer la mesure », fil rouge de l'app ; jeu public annoté d'abord, puis données du pilote <code>slm-quality-bench</code>.</li>
 <li class="lock">Fin d'un module : nouvelles questions réussies en réponse libre, simulation d'entretien de 10 min, note de décision écrite sans brouillon de Claude.</li>
-<li class="lock">Octobre en local avec clés personnelles ; novembre sur l'hébergement Wavestone (SSO, Azure Foundry), avec l'industrialisation comme second objectif d'apprentissage.</li>
+<li class="lock">Octobre en local avec clés personnelles ; novembre sur un hébergement avec authentification et clés API d'un fournisseur, avec l'industrialisation comme second objectif d'apprentissage.</li>
 <li class="lock">Au 31 octobre, point d'étape : module 1 terminé et V1 locale qui le sert.</li>
 </ul></div>
 
@@ -73,7 +73,7 @@ footer{color:var(--muted);font-size:.85rem;margin-top:40px}
 <div class="card"><ul>
 <li class="no">QCM seul pour se positionner : il mesure la reconnaissance, le geste même du problème.</li>
 <li class="no">Contenu généré par Claude puis validé : reproduirait l'échec de <code>slm-quality-bench</code>.</li>
-<li class="no">Authentification maison en octobre : jetable dès le SSO Wavestone.</li>
+<li class="no">Authentification maison en octobre : jetable dès l'authentification externe.</li>
 <li class="no">Industrialisation tout de suite : disperse l'effort avant le premier module.</li>
 <li class="no">Module 1 dépendant du pilote Ollama : bloquerait le démarrage.</li>
 </ul></div>
@@ -82,7 +82,7 @@ footer{color:var(--muted);font-size:.85rem;margin-top:40px}
 <div class="card"><ul>
 <li class="weak">La banque de positionnement a été rédigée par Claude ; elle doit être défendue par Anaël avant d'entrer dans l'app, et calibrée sur les collègues.</li>
 <li class="weak">Sans échéance externe, le périmètre peut dériver : le 31 octobre sert de point d'étape.</li>
-<li class="weak">Jeux publics annotés, catalogue Azure Foundry et politique Wavestone : à vérifier, pas encore vérifiés.</li>
+<li class="weak">Jeux publics annotés, catalogue de modèles hébergés et conditions d'usage : à vérifier, pas encore vérifiés.</li>
 <li class="weak">La simulation d'entretien est jouée par Claude : utile, mais pas un vrai recruteur.</li>
 </ul></div>
 

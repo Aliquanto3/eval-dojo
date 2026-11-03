@@ -4,7 +4,7 @@ Lisible avant la passation. La banque d'items et son corrigé sont dans `banque-
 
 ## But et limites
 
-- **But** : cartographier, thème par thème, ce qu'Anaël sait reconnaître, ce qu'il sait justifier et où il a des idées fausses, pour ordonner les modules de WaveEval. C'est un diagnostic formatif, pas une certification.
+- **But** : cartographier, thème par thème, ce qu'Anaël sait reconnaître, ce qu'il sait justifier et où il a des idées fausses, pour ordonner les modules de EvalDojo. C'est un diagnostic formatif, pas une certification.
 - **Limites** : un seul répondant ; difficultés fixées a priori, non calibrées (pas d'IRT possible avec n = 1) ; items rédigés par Claude, donc à relire et à défendre avant d'entrer dans l'app (règle du projet). La banque sera calibrée plus tard sur les passations des collègues (taux de réussite, discrimination point-bisériale, analyse des distracteurs).
 
 ## Construit et plan de test
@@ -60,6 +60,6 @@ Durée prévue : 45 à 50 minutes (items F à 1 min 30, items M et D à 3 min av
 - Profil par thème (nombre d'items maîtrisés, fragiles, en lacune, en idée fausse), pas de score total ;
 - Calibration : auto-évaluation comparée au niveau mesuré, thème par thème ;
 - Liste des idées fausses, avec leur correction ;
-- Conséquence pour WaveEval : ordre des modules et niveau d'entrée de chacun.
+- Conséquence pour EvalDojo : ordre des modules et niveau d'entrée de chacun.
 
 Après la passation, les réponses vont dans `passation-2026-10-20.md`, et la banque peut être versionnée (avant, elle resterait lisible sur le dépôt public).

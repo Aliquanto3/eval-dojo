@@ -1,4 +1,4 @@
-# WaveEval
+# EvalDojo
 
 > **Statut : en spécification.** Rien n'est encore utilisable.
 
@@ -10,7 +10,7 @@ Application pédagogique pour apprendre à évaluer l'IA générative, en pratiq
 - évaluer un RAG et, plus largement, la recherche documentaire par IA (retrieval, génération, bout en bout) ;
 - préparer les données et évaluer un fine-tuning de LLM.
 
-Elle sert d'abord à l'autoformation, puis à former des collègues ou des clients, en autonomie ou en atelier.
+Elle sert d'abord à l'autoformation, puis à former d'autres apprenants, en autonomie ou en atelier.
 
 ## Développement
 
@@ -18,7 +18,7 @@ Le projet suit la méthode [BMAD](https://github.com/bmad-code-org/BMAD-METHOD) 
 
 ## English summary
 
-WaveEval is a teaching app, in the specification phase, for learning how to evaluate generative AI: evaluation pipelines, LLM-as-a-judge, evaluation datasets, RAG and AI search evaluation, and data and evaluation for LLM fine-tuning.
+EvalDojo is a teaching app, in the specification phase, for learning how to evaluate generative AI: evaluation pipelines, LLM-as-a-judge, evaluation datasets, RAG and AI search evaluation, and data and evaluation for LLM fine-tuning.
 
 ## Licence
 
