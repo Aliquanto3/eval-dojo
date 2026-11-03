@@ -21,10 +21,10 @@ Dépôt `https://github.com/Aliquanto3/librarian-bench` :
 - `corpora/minicorpus/annotations/anael.yaml` : le paquet annoté. Chaque ligne porte `answer_id`, `criterion`, `verdict` et `note`, plus ce que voient les Juges : question, réponse de référence, réponse, ancres citées, passages de référence et de contexte.
 - `corpora/minicorpus/annotations/anael.html` : la page d'annotation de la première passe, lisible dans un navigateur.
 - Historique git de `anael.yaml` : la première annotation (commit `56b7855`) et la réannotation de la fidélité (commit `d02ef03`). `git show 56b7855:corpora/minicorpus/annotations/anael.yaml` rend la première version.
-- La page de réannotation de la fidélité est hors dépôt : `C:\Users\Utilisateur\Documents\annotation-fidelite-librarian-bench.html`.
+- La page de réannotation de la fidélité est hors dépôt (fichier HTML local `annotation-fidelite-librarian-bench.html`).
 - `corpora/minicorpus/questions.yaml` et `corpora/minicorpus/docs/` : le jeu de Questions gelé et les documents du corpus.
 - `_bmad-output/implementation-artifacts/verifications-reelles-2026-10-18-v0.2.0.md` : le run source (`20261018-115941-a2a512`) et la constitution du paquet (story 8.9).
-- À venir dans le même dossier : la série de vérifications réelles des stories 8.10 et 8.11, avec les kappas Juge contre humain. Les fichiers bruts de calibration (`calibration*.json`, verdicts des Juges par passe) restent hors dépôt, dans `C:\Users\Utilisateur\Documents\GitHub\wl-runs-v0.2.0\runs\20261018-115941-a2a512\`.
+- À venir dans le même dossier : la série de vérifications réelles des stories 8.10 et 8.11, avec les kappas Juge contre humain. Les fichiers bruts de calibration (`calibration*.json`, verdicts des Juges par passe) restent hors dépôt, dans le dossier local du run `20261018-115941-a2a512`.
 
 ## Avantages pour EvalDojo
 

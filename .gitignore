@@ -30,3 +30,6 @@ node_modules/
 Thumbs.db
 .vscode/
 .idea/
+
+# Etat d'outillage
+.claude/cost-kit/.blocages
