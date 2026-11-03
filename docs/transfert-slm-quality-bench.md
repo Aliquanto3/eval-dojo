@@ -1,6 +1,6 @@
 # Transfert depuis slm-quality-bench : un cas réel pour le module « Mesurer la mesure »
 
-Note du 2026-10-26. Source : [slm-quality-bench](https://github.com/Aliquanto3/slm-quality-bench), calibration du juge sur la campagne `pilot-20261017`. Le module 1 prévoit déjà d'utiliser les réponses de ce pilote (`_bmad-output/forge/waveeval/forged-idea.md`). Publication des données : sans objection d'Anaël.
+Note du 2026-10-26. Source : [slm-quality-bench](https://github.com/Aliquanto3/slm-quality-bench), calibration du juge sur la campagne `pilot-20261017`. Le module 1 prévoit déjà d'utiliser les réponses de ce pilote (`_bmad-output/forge/eval-dojo/forged-idea.md`). Publication des données : sans objection d'Anaël.
 
 ## Le jeu disponible
 
@@ -20,7 +20,7 @@ Fichiers (dans le dépôt slm-quality-bench, sous `data/quality_bench/`, hors gi
 | Consignes et critères | `sets/set-v2/questions.jsonl` (`writing/writing-fr/NNNN`) |
 | Rapport de calibration | `campaigns/pilot-20261017/calibration-report.{md,json}` |
 
-Jointure : clé `pilot-20261017|<modèle>|<piste>|<question>|<seed>|<critère>` ; la clé de génération est la même sans le critère. Un export autonome pour WaveEval (un JSONL par item : consigne, réponse, critère, étiquette, verdicts) reste à faire.
+Jointure : clé `pilot-20261017|<modèle>|<piste>|<question>|<seed>|<critère>` ; la clé de génération est la même sans le critère. Un export autonome pour EvalDojo (un JSONL par item : consigne, réponse, critère, étiquette, verdicts) reste à faire.
 
 ## Les résultats
 
