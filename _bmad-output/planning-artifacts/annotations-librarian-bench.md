@@ -16,7 +16,7 @@ Pour calibrer les Juges du banc LibrarianBench (story 8.10), Anaël a annoté à
 
 ## Où les trouver
 
-Dépôt `https://github.com/Aliquanto3/librarian-bench` (local : `C:\Users\Utilisateur\Documents\GitHub\librarian-bench`) :
+Dépôt `https://github.com/Aliquanto3/librarian-bench` :
 
 - `corpora/minicorpus/annotations/anael.yaml` : le paquet annoté. Chaque ligne porte `answer_id`, `criterion`, `verdict` et `note`, plus ce que voient les Juges : question, réponse de référence, réponse, ancres citées, passages de référence et de contexte.
 - `corpora/minicorpus/annotations/anael.html` : la page d'annotation de la première passe, lisible dans un navigateur.
